@@ -1,0 +1,267 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:#eef2f5;
+
+    margin:0;
+
+    padding:20px;
+
+}
+
+
+.container {
+
+    max-width:1100px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0px 3px 15px rgba(0,0,0,.15);
+
+}
+
+
+
+h1 {
+
+    color:#123b5d;
+
+    margin-bottom:5px;
+
+}
+
+
+
+.subtitulo {
+
+    color:#666;
+
+}
+
+
+
+.panel {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    margin-top:25px;
+
+}
+
+
+
+label {
+
+    font-weight:bold;
+
+}
+
+
+
+input {
+
+    padding:12px;
+
+    font-size:16px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+}
+
+
+
+button {
+
+    margin-top:15px;
+
+    padding:14px;
+
+    background:#0066cc;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+
+button:hover {
+
+    background:#004c99;
+
+}
+
+
+
+#estado {
+
+    margin-top:25px;
+
+    font-weight:bold;
+
+}
+
+
+
+.resultado {
+
+    margin-top:20px;
+
+    padding:20px;
+
+    background:#fafafa;
+
+    border-left:6px solid #0066cc;
+
+    border-radius:6px;
+
+}
+
+
+
+.resultado h3 {
+
+    color:#123b5d;
+
+}
+
+
+
+.info {
+
+    margin:5px 0;
+
+}
+
+
+
+.positivo {
+
+    color:green;
+
+    font-weight:bold;
+
+}
+
+
+
+.negativo {
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+
+
+.neutral {
+
+    color:#777;
+
+    font-weight:bold;
+
+}
+
+
+
+a {
+
+    color:#0066cc;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+a:hover {
+
+    text-decoration:underline;
+
+}
+
+#resumen {
+
+    margin-top:20px;
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.tarjeta {
+
+    background:#f8f9fa;
+
+    padding:15px 25px;
+
+    border-radius:8px;
+
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+
+    font-size:18px;
+
+}
+
+
+
+.tarjeta b {
+
+    font-size:25px;
+
+}
+
+
+
+.total {
+
+    border-left:6px solid #0066cc;
+
+}
+
+
+.rojo {
+
+    border-left:6px solid red;
+
+}
+
+
+.verde {
+
+    border-left:6px solid green;
+
+}
+
+
+.gris {
+
+    border-left:6px solid gray;
+
+}

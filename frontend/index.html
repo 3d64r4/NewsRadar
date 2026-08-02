@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Monitor de Medios - Amigo LNG
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <h1>
+        Monitor de Medios
+    </h1>
+
+    <p class="subtitulo">
+        Rastreo de noticias y menciones en internet
+    </p>
+
+
+
+    <div class="panel">
+
+
+        <label>
+            Días hacia atrás:
+        </label>
+
+        <input
+            id="dias"
+            type="number"
+            value="7"
+            min="1"
+        >
+
+
+
+        <label>
+            Temas a buscar:
+        </label>
+
+
+        <input
+            id="temas"
+            type="text"
+            value="Amigo LNG, Amigo GNL, LNG Alliance"
+        >
+
+
+
+        <button onclick="buscar()">
+            Buscar menciones
+        </button>
+
+
+    </div>
+
+
+
+    <div id="estado">
+
+    </div>
+
+<div id="resumen">
+
+</div>
+
+    <div id="resultados">
+
+    </div>
+
+
+</div>
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
