@@ -24,3 +24,6 @@ __pycache__/
 imagenes/
 pdfs/
 descargas/
+
+# Archivos HTML generados
+pagina*.html
