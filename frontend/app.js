@@ -5,6 +5,7 @@
 
 //const API_URL =
 //"http://localhost:8000/buscar";
+//agergado a render
 
 const API_URL =
 "https://newsradar-8ihl.onrender.com/buscar";
