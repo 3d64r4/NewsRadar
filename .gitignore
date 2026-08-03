@@ -1,9 +1,22 @@
+# Entorno virtual
+.venv/
+
+# Variables
+.env
+
+# Caché de Python
 __pycache__/
 *.pyc
-.venv/
-venv/
-.env
-.env.*
-.vscode/
+
+# IDE
 .idea/
-monitoreo_resultados.csv
+.vscode/
+
+# Archivos generados
+*.csv
+*.txt
+
+# Carpetas temporales
+imagenes/
+pdfs/
+descargas/
