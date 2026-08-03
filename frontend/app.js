@@ -3,9 +3,11 @@
 //const API_URL =
 //"https://TU-BACKEND.onrender.com/buscar";
 
-const API_URL =
-"http://localhost:8000/buscar";
+//const API_URL =
+//"http://localhost:8000/buscar";
 
+const API_URL =
+"https://newsradar-8ihl.onrender.com/buscar";
 
 async function buscar(){
 
